@@ -13,7 +13,7 @@ import pandas as pd
 import numpy as np
 from ast import literal_eval
 
-raw = pd.read_csv("facial-keypoints-detection/training/training.csv")
+raw = pd.read_csv("training.csv")
 X_raw = raw["Image"]
 Y_Train = raw[["nose_tip_y", "nose_tip_x"]]
 X_Train =[]

@@ -2,3 +2,4 @@ venv
 *.iml
 *.xml
 *.pyc
+Facial_Keypoints/training.csv
