@@ -2,3 +2,5 @@ venv
 *.iml
 *.xml
 *.pyc
+HousePrices/result.csv
+HousePrices/result.csv
