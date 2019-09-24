@@ -78,8 +78,8 @@ from keras.utils import np_utils
 import pandas as pd
 from matplotlib import pyplot as plt
 
-xtrain = pd.read_csv("HousePrices/pricetrain.csv")
-test = pd.read_csv("HousePrices/pricetest.csv")
+xtrain = pd.read_csv('pricetrain.csv')
+test = pd.read_csv('pricetest.csv')
 xtrain.fillna(xtrain.mean(), inplace=True)
 xtrain.drop(["Alley"], axis=1, inplace=True)
 xtrain.drop(["PoolQC"], axis=1, inplace=True)
@@ -117,7 +117,7 @@ xtrain.drop(["SalePrice"], axis=1, inplace=True)
 ytrain = ytrain.values
 xtrain = xtrain.values
 ytrain = ytrain.astype("float32")
-np.savetxt("HousePrices/thecheck.csv", xtrain, fmt='%i', delimiter=',')
+np.savetxt("thecheck.csv", xtrain, fmt='%i', delimiter=',')
 from sklearn.model_selection import train_test_split
 #X_train, X_valid, Y_train, Y_valid = train_test_split(xtrain, ytrain, train_size=0.8, test_size= 0.2, random_state=2)
 model = Sequential(
@@ -143,4 +143,4 @@ from sklearn.metrics import mean_absolute_error
 #mae = mean_absolute_error(ytrain,prediction)
 array = np.column_stack((test["Id"], prediction))
 #
-np.savetxt("HousePrices/result.csv", array, fmt='%i',delimiter=',')
+np.savetxt("result.csv", array, fmt='%i',delimiter=',')
