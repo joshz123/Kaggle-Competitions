@@ -2,6 +2,7 @@ venv
 *.iml
 *.xml
 *.pyc
+HousePrices/result.csv
 Facial_Keypoints/training.csv
 Facial_Keypoints/facial-keypoints-detection/training/training.csv
 Facial_Keypoints/facial-keypoints-detection/IdLookupTable.csv
