@@ -3,3 +3,7 @@ venv
 *.xml
 *.pyc
 Facial_Keypoints/training.csv
+Facial_Keypoints/facial-keypoints-detection/training/training.csv
+Facial_Keypoints/facial-keypoints-detection/IdLookupTable.csv
+Facial_Keypoints/facial-keypoints-detection/SampleSubmission.csv
+Facial_Keypoints/facial-keypoints-detection/test/test.csv
