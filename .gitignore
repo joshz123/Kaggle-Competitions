@@ -3,5 +3,4 @@ venv
 *.xml
 *.pyc
 HousePrices/result.csv
-HousePrices/result.csv
 Facial_Keypoints/training.csv
