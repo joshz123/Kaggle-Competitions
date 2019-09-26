@@ -3,5 +3,9 @@ venv
 *.xml
 *.pyc
 HousePrices/result.csv
-HousePrices/result.csv
 HousePrices/result-DESKTOP-5NTQ9F4.csv
+Facial_Keypoints/training.csv
+Facial_Keypoints/facial-keypoints-detection/training/training.csv
+Facial_Keypoints/facial-keypoints-detection/IdLookupTable.csv
+Facial_Keypoints/facial-keypoints-detection/SampleSubmission.csv
+Facial_Keypoints/facial-keypoints-detection/test/test.csv
