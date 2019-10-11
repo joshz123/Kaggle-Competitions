@@ -1,0 +1,3 @@
+Check for how many columns in a dataframe have missing values:
+print(dataframename.isnull().any().value_counts())
+
