@@ -1,3 +1,16 @@
 Check for how many columns in a dataframe have missing values:
 print(dataframename.isnull().any().value_counts())
 
+Initial exploration of data
+
+df.head()
+df.describe()
+
+Fill null values
+raw.fillna(method = "ffill",inplace=True)
+
+Using -1 in numpy reshape will automatically select a dimension that fits
+
+images.reshape(-1,96,96)
+
+
