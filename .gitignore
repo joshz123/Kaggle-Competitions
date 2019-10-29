@@ -4,3 +4,12 @@ venv
 *.pyc
 HousePrices/result.csv
 Facial_Keypoints/training.csv
+Facial_Keypoints/IdLookupTable.csv
+Facial_Keypoints/mymodel.h5
+Facial_Keypoints/test.csv
+Facial_Keypoints/facial_keypoints_model.h5
+Facial_Keypoints/face_key_detection_submission.csv
+Facial_Keypoints/.ipynb_checkpoints/Facial Keypoints Notebook-checkpoint.ipynb
+Facial_Keypoints/.ipynb_checkpoints/Facial Keypoints Notebook-checkpoint.ipynb
+Facial_Keypoints/.ipynb_checkpoints/Facial Keypoints Notebook-checkpoint.ipynb
+Facial_Keypoints/.ipynb_checkpoints/Facial Keypoints Notebook-checkpoint.ipynb
